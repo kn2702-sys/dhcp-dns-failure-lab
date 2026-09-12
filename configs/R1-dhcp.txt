@@ -1,0 +1,27 @@
+! Minimal R1 for LAB 2 (VLAN 10 only) — or use Lab 1 R1 and focus on VLAN 10
+enable
+configure terminal
+hostname R1
+no ip domain-lookup
+!
+ip dhcp excluded-address 192.168.10.1 192.168.10.10
+!
+ip dhcp pool HR
+ network 192.168.10.0 255.255.255.0
+ default-router 192.168.10.1
+ dns-server 192.168.10.10
+!
+interface GigabitEthernet0/0
+ no shutdown
+!
+interface GigabitEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.10.1 255.255.255.0
+!
+! If using a single access VLAN link instead of trunk:
+! interface GigabitEthernet0/0
+!  ip address 192.168.10.1 255.255.255.0
+!  no shutdown
+!
+end
+write memory

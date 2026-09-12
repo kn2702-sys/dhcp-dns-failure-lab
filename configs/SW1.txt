@@ -1,0 +1,35 @@
+enable
+configure terminal
+hostname SW1
+!
+vlan 10
+ name HR
+!
+interface FastEthernet0/1
+ description PC-USER
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+!
+interface FastEthernet0/2
+ description PC-REF
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+!
+interface FastEthernet0/5
+ description DNS-SRV
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+!
+interface GigabitEthernet0/1
+ description TO-R1
+ switchport mode trunk
+ switchport trunk allowed vlan 10
+! For non-trunk minimal lab, use:
+!  switchport mode access
+!  switchport access vlan 10
+!
+end
+write memory
