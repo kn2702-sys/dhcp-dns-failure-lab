@@ -6,7 +6,7 @@ NOC / IT Support portfolio lab. Most candidates can define DHCP and DNS. This re
 | --- | --- |
 | **Author** | [Kazi Nafis Nawaz](https://github.com/kn2702-sys) · MCA (Networking) |
 | **Platform** | Cisco Packet Tracer |
-| **Series** | [LAB 1](https://github.com/kn2702-sys/enterprise-vlan-lab) · **LAB 2** · [LAB 3](https://github.com/kn2702-sys/LAB-3-Multi-Router-OSPF-Network) · [LAB 4](https://github.com/kn2702-sys/LAB-4-ACL-NAT-Internet-Edge) · [LAB 5](https://github.com/kn2702-sys/LAB-5-Site-to-Site-VPN-Firewall) · [LAB 6](https://github.com/kn2702-sys/LAB-6-Wireshark-NOC-Troubleshooting) · [LAB 7](https://github.com/kn2702-sys/LAB-7-NOC-Incident-Simulation) |
+| **Series** | [LAB 1](https://github.com/kn2702-sys/enterprise-vlan-lab) · **LAB 2** · [LAB 3](https://github.com/kn2702-sys/LAB-3-Multi-Router-OSPF-Network) · [LAB 4](https://github.com/kn2702-sys/LAB-4-ACL-NAT-Internet-Edge) · [LAB 5](https://github.com/kn2702-sys/LAB-5-Site-to-Site-VPN-Firewall) · [LAB 6](https://github.com/kn2702-sys/LAB-6-Wireshark-NOC-Troubleshooting) · [LAB 7](https://github.com/kn2702-sys/LAB-7-NOC-Incident-Simulation)  · [Lab 8](https://github.com/kn2702-sys/LAB-8-AWS-VPC-Networking)|
 | **Skills** | DHCP · DNS · default gateway · APIPA · ICMP triage · ticket language |
 
 > Portfolio / learning lab — not production employment.
