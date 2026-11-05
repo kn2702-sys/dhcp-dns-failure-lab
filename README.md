@@ -72,7 +72,7 @@ Baseline configs: [`configs/`](configs/)
 3. Run Scenario A → restore → B → restore → C → restore.
 4. Capture screenshots listed in `screenshots/README.md`.
 
-No `.pkt` binary in git — configs + docs are the source of truth.
+A generated `.pkt` binary (`Lab-2-DHCP-DNS-Failure.pkt`) is committed in git, generated from the configs in this repo — configs + docs remain the source of truth. It has not yet been opened/tested in real Cisco Packet Tracer.
 
 ---
 
